@@ -1,0 +1,218 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body main #secOne {
+  background-image: url("/assets/img/home_slider_bcg.webp");
+  height: 543px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body main #secOne .secContent {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body main #secOne .secContent h1 {
+  position: absolute;
+  top: 40px;
+  font-size: 100px;
+  color: white;
+}
+body main #secTwo .secContent .contentOne {
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body main #secTwo .secContent .contentOne .line {
+  width: 3px;
+  height: 25px;
+  background-color: #fd784f;
+}
+body main #secTwo .secContent .contentOne h2 {
+  font-size: 24px;
+  color: #1e2c4e;
+}
+body main #secTwo .secContent .contentOne h3 {
+  font-size: 16px;
+  color: #b0b1b3;
+}
+body main #secThree {
+  background-image: url(/assets/img/testimonials_background.webp);
+  background-size: cover;
+  height: 543px;
+}
+body main #secThree .secContent .contentOne {
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body main #secThree .secContent .contentOne .textContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+body main #secThree .secContent .contentOne .textContent .line {
+  width: 3px;
+  height: 25px;
+  background-color: #fd784f;
+}
+body main #secThree .secContent .contentOne .textContent h2 {
+  font-size: 20px;
+  color: #fff;
+}
+body main #secThree .secContent .contentOne .textContent h3 {
+  font-size: 14px;
+  color: #b0b1b3;
+}
+body main #secThree .secContent .contentOne .textContent p {
+  font-size: 20px;
+  width: 650px;
+  text-align: center;
+  color: #fff;
+  font-weight: 300;
+  line-height: 2;
+}
+body main #secThree .secContent .contentOne .userContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body main #secThree .secContent .contentOne .userContent img {
+  border-radius: 50%;
+  width: 81px;
+  height: 81px;
+}
+body main #secThree .secContent .contentOne .userContent h2 {
+  color: #fd784f;
+  font-size: 14px;
+}
+body main #secThree .secContent .contentOne .userContent h3 {
+  color: #fff;
+  font-size: 13px;
+}
+body main #secFour {
+  padding: 20px 0;
+}
+body main #secFour .secContent .contentOne {
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body main #secFour .secContent .contentOne .line {
+  width: 3px;
+  height: 25px;
+  background-color: #fd784f;
+}
+body main #secFour .secContent .contentOne h2 {
+  font-size: 24px;
+  color: #1e2c4e;
+}
+body main #secFour .secContent .contentOne h3 {
+  font-size: 16px;
+  color: #b0b1b3;
+}
+body main #secFour .secContent .contentTwo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+body main #secFour .secContent .contentTwo .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+}
+body main #secFour .secContent .contentTwo .content img {
+  width: 255px;
+  height: 445px;
+}
+body main #secFour .secContent .contentTwo .content .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 255px;
+  height: 445px;
+  background-color: rgba(0, 0, 0, 0.432);
+}
+body main #secFour .secContent .contentTwo .content p {
+  position: absolute;
+  top: 400px;
+  background-color: #fd784f;
+  color: #fff;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1e2c4e;
+}
+body footer p {
+  color: white;
+}
+
+@media screen and (min-width: 500px) and (max-width: 900px) {
+  body main #secOne {
+    background-image: url("/assets/img/home_slider_bcg.webp");
+    height: 543px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  body main #secOne .secContent {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  body main #secOne .secContent h1 {
+    position: absolute;
+    top: 40px;
+    font-size: 50px;
+    color: white;
+  }
+}
+@media screen and (min-width: 300px) and (max-width: 499px) {
+  body main #secOne {
+    background-image: url("/assets/img/home_slider_bcg.webp");
+    height: 543px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  body main #secOne .secContent {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  body main #secOne .secContent h1 {
+    position: absolute;
+    top: 40px;
+    font-size: 30px;
+    color: white;
+  }
+}
